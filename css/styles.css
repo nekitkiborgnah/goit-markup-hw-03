@@ -1,0 +1,168 @@
+:root {
+    --web-transform: #4d5ae5;
+    --studio-transform: #2e2f42;
+    --address-transform: #434455;
+    --background-button: #F4F4FD;
+}
+.logo {
+    width: 71px;
+    height: 21px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-transform);
+}
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.list {
+    color: var(--seeing);
+    color: var(--mocno2);
+    list-style-type: none;
+}
+.background {
+    background: #2E2F42;
+}
+.bomba {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.07;
+    letter-spacing: 0.02em
+}
+.btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    border: none;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+.transform {
+    color: var(--studio-transform);
+}
+.address {
+    font-style: normal;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--studio-transform);
+}
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-transform);
+}
+.header-link:hover {
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+}
+.address-link:hover {
+    color: #404bbf;
+}
+.address-link:focus {
+    color: #404bbf;
+}
+.btn:hover {
+    background-color: #404BBF;
+}
+.btn:focus {
+    background-color: #404BBF;
+}
+.strategy {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--studio-transform);
+}
+.in-strategy {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-transform);
+}
+.cocojambo {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--studio-transform);
+}
+.hackers {
+    background-color: #F4F4FD;
+}
+.hacker {
+    background-color: #FFFFFF
+}
+.footer {
+    background-color: var(--studio-transform);
+}
+.footer-logo {
+    color: #f4f4fd;
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--web-transform);
+    background-color: var(--background-button);
+}
+.button:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.zagolovok {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--studio-transform);
+}
+.p-img {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--address-transform);
+}
+.footer-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
+}
