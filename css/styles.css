@@ -4,6 +4,13 @@
     --address-transform: #434455;
     --background-button: #F4F4FD;
 }
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 .logo {
     width: 71px;
     height: 21px;
@@ -17,6 +24,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--web-transform);
+    margin-right: 76px;
+}
+.header-container {
+    display: flex;
 }
 .link {
     text-decoration: none;
@@ -30,17 +41,33 @@ body {
     color: var(--seeing);
     color: var(--mocno2);
     list-style-type: none;
+    display: flex;
 }
 .background {
     background: #2E2F42;
+    height: 600px;
+    top: 72px;
+
 }
 .bomba {
     font-weight: 700;
     font-size: 56px;
+    line-height: 60px;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
-    line-height: 1.07;
-    letter-spacing: 0.02em
+    padding-top: 188px;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.info {
+    padding-bottom: 120px;
+}
+.navigation {
+    display: flex;
+    margin-right: auto;
 }
 .btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -69,12 +96,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--studio-transform);
+    margin-right: 40px;
 }
 .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
+    margin-right: 40px;
 }
 .header-link:hover {
     color: #404bbf;
@@ -100,12 +129,15 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--studio-transform);
+    margin-right: 24px;
 }
 .in-strategy {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
+    margin-right: 24px;
+    margin-top: 8px;
 }
 .cocojambo {
     font-size: 36px;
@@ -114,18 +146,22 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--studio-transform);
+    margin-bottom: 72px;
 }
 .hackers {
     background-color: #F4F4FD;
+    padding-bottom: 120px;
 }
 .hacker {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    margin-right: 24px;
 }
 .footer {
     background-color: var(--studio-transform);
 }
 .footer-logo {
     color: #f4f4fd;
+    
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -165,4 +201,23 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #F4F4FD;
+    padding-bottom: 100px;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+.about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.thelastofus {
+    margin-right: 24px;
+}
+.ourteam {
+    padding-top: 120px;
+}
+.logo2 {
+    padding-top: 100px;
+    margin-bottom: 18px;
 }
