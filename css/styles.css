@@ -12,8 +12,6 @@ ul {
     padding-left: 0;
 }
 .logo {
-    width: 71px;
-    height: 21px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -57,10 +55,13 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     padding-top: 188px;
+    width: 496px;
+    margin: 0 auto;
 }
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .info {
     padding-bottom: 120px;
@@ -83,6 +84,9 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
+    margin: 0 auto;
+    padding: 16px 32px;
+    margin-top: 48px;
 }
 .transform {
     color: var(--studio-transform);
@@ -129,15 +133,15 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--studio-transform);
-    margin-right: 24px;
+    text-align: center;
 }
 .in-strategy {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
-    margin-right: 24px;
     margin-top: 8px;
+    text-align: center;
 }
 .cocojambo {
     font-size: 36px;
@@ -171,6 +175,13 @@ body {
     letter-spacing: 0.04em;
     color: var(--web-transform);
     background-color: var(--background-button);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    margin-right: 24px;
 }
 .button:hover {
     color: #FFFFFF;
@@ -193,6 +204,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--address-transform);
+    padding-top: 8px;
 }
 .footer-p {
     font-family: 'Roboto';
@@ -202,10 +214,13 @@ body {
     line-height: 24px;
     color: #F4F4FD;
     padding-bottom: 100px;
+    width: 264px;
 }
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .about {
     padding-top: 120px;
@@ -220,4 +235,31 @@ body {
 .logo2 {
     padding-top: 100px;
     margin-bottom: 18px;
+}
+.resident {
+    margin-right: 24px;
+    width: 264px;
+}
+.tilted {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.portfolio-choose {
+    padding-top: 96px;
+    padding-bottom: 72px;
+    margin-left: 270px;
+}
+.border {
+    border: 1px solid #E7E9FC;
+    height: 80px;
+    padding-left: 16px;
+    padding-top: 32px;
+}
+.portfolio {
+    padding-bottom: 120px;
 }
