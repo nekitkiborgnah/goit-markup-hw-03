@@ -155,13 +155,18 @@ body {
 .hackers {
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 .hacker {
     background-color: #FFFFFF;
     margin-right: 24px;
+    display: block;
 }
 .footer {
     background-color: var(--studio-transform);
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 .footer-logo {
     color: #f4f4fd;
@@ -181,7 +186,6 @@ body {
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    margin-right: 24px;
 }
 .button:hover {
     color: #FFFFFF;
@@ -213,7 +217,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #F4F4FD;
-    padding-bottom: 100px;
     width: 264px;
 }
 .container {
@@ -229,13 +232,6 @@ body {
 .thelastofus {
     margin-right: 24px;
 }
-.ourteam {
-    padding-top: 120px;
-}
-.logo2 {
-    padding-top: 100px;
-    margin-bottom: 18px;
-}
 .resident {
     margin-right: 24px;
     width: 264px;
@@ -250,16 +246,22 @@ body {
     gap: 48px 24px;
 }
 .portfolio-choose {
-    padding-top: 96px;
     padding-bottom: 72px;
     margin-left: 270px;
 }
 .border {
     border: 1px solid #E7E9FC;
-    height: 80px;
+    height: 120px;
     padding-left: 16px;
     padding-top: 32px;
 }
 .portfolio {
     padding-bottom: 120px;
+    padding-top: 96px;
+}
+.portfolio-img {
+    display: block;
+}
+.margin {
+    margin-right: 24px;
 }
